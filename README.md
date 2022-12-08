@@ -28,6 +28,8 @@ Super Abricotier Game
 >Des commentaires pour les solutions de merde
 >
 >Si tu restes sur place sans bouger pendant 30secondes tu t'enracines et il faut attendre une animation de déracinage pour rebouger
+>
+>Une référence au curl parrot.live
 ***
 #Fin alternative
 >tu te fait défonçer par les dev si tu use trop de bug volontaire
