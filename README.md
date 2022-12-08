@@ -1,7 +1,9 @@
 # SuperAbricotier
 Super Abricotier Game
 ***
->Crée la fenetre\n
+>Crée la fenetre
+
+
 >Faut faire tous les sprites déjà
 >Munitions canard de bain
 >Caisses de munitions: baignoires (qu'on trouve certainement dans des maisons mais aussi certaines qui traînent dans les forêts parce que euhhhhhhhhhh)
