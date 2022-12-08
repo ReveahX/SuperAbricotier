@@ -31,13 +31,20 @@ Super Abricotier Game
 ***
 #Fin alternative
 >tu te fait défonçer par les dev si tu use trop de bug volontaire
+>
 >Tu fait rien pendant 10min ton jeux se "freeze" (ça passe à l'hiver et le jeu se termine avec tes feuilles mortes tombant au sol)
 ***
 #La timeline
 >Animation de déracinage au début
+>
 >Au début tu te bats en mélée contre des bûcherons
+>
 >Après tu rentres dans une maison du coup les habitants paniquent et appellent les flics (qui sont juste des bûcherons plus vénères)
+>
 >Amine, leur chien, te rejoint dans ton aventure
+>
 >Tu trouves ta première baignoire et d'un coup l'arbre sort un minigun de nulle part
+>
 >Et à ce moment là une musique similaire à celle de DOOM mais légalement distincte pour raison de droits d'auteur commence
+>
 >Dilemme du tramway à un moment et ton choix affecte le reste du jeu
