@@ -48,3 +48,8 @@ Super Abricotier Game
 >Et à ce moment là une musique similaire à celle de DOOM mais légalement distincte pour raison de droits d'auteur commence
 >
 >Dilemme du tramway à un moment et ton choix affecte le reste du jeu
+***
+#Shop
+>1 000 pièce: choix couleurs chien sauf noir
+
+>10 000 pièce: chien en or ou noir
