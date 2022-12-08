@@ -2,23 +2,31 @@
 Super Abricotier Game
 ***
 >Crée la fenetre
-
+>
 >Faut faire tous les sprites déjà
-
+>
 >Munitions canard de bain
-
+>
 >Caisses de munitions: baignoires (qu'on trouve certainement dans des maisons mais aussi certaines qui traînent dans les forêts parce que euhhhhhhhhhh)
-
+>
 >Référence à BT et à l'arbre (de Fallout)
-
+>
 >Tuer des bûcherons
+>
 >Le boss final c'est un dinosaure
+>
 >On peut trouver le code source quelque part
+>
 >36 fins alternatives
+>
 >Bugs volontaires
+>
 >Un chien qui nous suis et qui s'appele Amine et qui ramasse des piece
+>
 >Si tu as sauvé les 5 en tuant le gars seul au dilemme du tramway le gars vient te maudir régulièrement sous forme de fantôme et les 5 que tu as sauvé viennent t'aider
+>
 >Des commentaires pour les solutions de merde
+>
 >Si tu restes sur place sans bouger pendant 30secondes tu t'enracines et il faut attendre une animation de déracinage pour rebouger
 ***
 #Fin alternative
