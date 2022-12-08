@@ -29,7 +29,7 @@ Super Abricotier Game
 >
 >Si tu restes sur place sans bouger pendant 30secondes tu t'enracines et il faut attendre une animation de déracinage pour rebouger
 >
->Une référence au curl parrot.live
+>Tu regagnes de la vie en mangeant les abricots qui tombent de l'arbre quand tu prends des dégâts (ils mettent un moment à repousser par contre donc faut éviter de prendre trop de dégâts trop souvent)
 ***
 #Fin alternative
 >tu te fait défonçer par les dev si tu use trop de bug volontaire
@@ -55,3 +55,14 @@ Super Abricotier Game
 >1 000 pièce: choix couleurs chien sauf noir
 
 >10 000 pièce: chien en or ou noir
+***
+#El canardo
+>Jaune: normal
+>
+>Bleu: fait plus de dégâts
+>
+>Rouge: explosif
+>
+>Vert: radioactif ou toxique j'en sais rien un truc dans le genre (il enfume tout l'écran et se retrouve à tuer tous les ennemis présents mais il est super rare du coup)
+>
+>Violet: crée une faille spatiotemporelle
