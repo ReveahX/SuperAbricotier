@@ -3,11 +3,14 @@ Super Abricotier Game
 ***
 >Crée la fenetre
 
-
 >Faut faire tous les sprites déjà
+
 >Munitions canard de bain
+
 >Caisses de munitions: baignoires (qu'on trouve certainement dans des maisons mais aussi certaines qui traînent dans les forêts parce que euhhhhhhhhhh)
+
 >Référence à BT et à l'arbre (de Fallout)
+
 >Tuer des bûcherons
 >Le boss final c'est un dinosaure
 >On peut trouver le code source quelque part
