@@ -8,4 +8,3 @@ class Game:
         self.all_player = pygame.sprite.Group()
         self.player = Player(self)
         self.all_player.add(self.player)
-        
