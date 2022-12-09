@@ -31,12 +31,12 @@ Super Abricotier Game
 >
 >Tu regagnes de la vie en mangeant les abricots qui tombent de l'arbre quand tu prends des dégâts (ils mettent un moment à repousser par contre donc faut éviter de prendre trop de dégâts trop souvent)
 ***
-#Fin alternative
+Fin alternative
 >tu te fait défonçer par les dev si tu use trop de bug volontaire
 >
 >Tu fait rien pendant 10min ton jeux se "freeze" (ça passe à l'hiver et le jeu se termine avec tes feuilles mortes tombant au sol)
 ***
-#La timeline
+La timeline
 >Animation de déracinage au début
 >
 >Au début tu te bats en mélée contre des bûcherons
@@ -51,12 +51,12 @@ Super Abricotier Game
 >
 >Dilemme du tramway à un moment et ton choix affecte le reste du jeu
 ***
-#Shop
+Shop
 >1 000 pièce: choix couleurs chien sauf noir
 
 >10 000 pièce: chien en or ou noir
 ***
-#El canardo
+El canardo
 >Jaune: normal
 >
 >Bleu: fait plus de dégâts
