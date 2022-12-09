@@ -21,7 +21,7 @@ Super Abricotier Game
 >
 >Bugs volontaires
 >
->Un chien qui nous suis et qui s'appele Amine et qui ramasse des piece
+>Un chien qui nous suis et qui s'appelle Amine et qui ramasse des pièces
 >
 >Si tu as sauvé les 5 en tuant le gars seul au dilemme du tramway le gars vient te maudir régulièrement sous forme de fantôme et les 5 que tu as sauvé viennent t'aider
 >
@@ -30,11 +30,15 @@ Super Abricotier Game
 >Si tu restes sur place sans bouger pendant 30secondes tu t'enracines et il faut attendre une animation de déracinage pour rebouger
 >
 >Tu regagnes de la vie en mangeant les abricots qui tombent de l'arbre quand tu prends des dégâts (ils mettent un moment à repousser par contre donc faut éviter de prendre trop de dégâts trop souvent)
+>
+>Tu prends pas de dégats de chute mais la map si et pour la régene il faut s'enraciner
 ***
 Fin alternative
 >tu te fait défonçer par les dev si tu use trop de bug volontaire
 >
 >Tu fait rien pendant 10min ton jeux se "freeze" (ça passe à l'hiver et le jeu se termine avec tes feuilles mortes tombant au sol)
+>
+>La map meurt et tu flotte dans le vide pour l'éternité
 ***
 La timeline
 >Animation de déracinage au début
@@ -66,3 +70,5 @@ El canardo
 >Vert: radioactif ou toxique j'en sais rien un truc dans le genre (il enfume tout l'écran et se retrouve à tuer tous les ennemis présents mais il est super rare du coup)
 >
 >Violet: crée une faille spatiotemporelle
+>
+>Orange: Incendiaire
