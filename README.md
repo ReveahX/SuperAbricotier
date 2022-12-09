@@ -9,7 +9,7 @@ Super Abricotier Game
 >
 >Caisses de munitions: baignoires (qu'on trouve certainement dans des maisons mais aussi certaines qui traînent dans les forêts parce que euhhhhhhhhhh)
 >
->Référence à BT et à l'arbre (de Fallout)
+>Référence à BT et à harold (l'arbre de Fallout)
 >
 >Tuer des bûcherons
 >
