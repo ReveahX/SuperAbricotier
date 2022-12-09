@@ -20,4 +20,4 @@ while Running:
             Running = False
             pygame.quit()
 
-print("Tu pars déja")
+print("Tu pars déja 😢")

@@ -1,5 +1,6 @@
 import pygame
-#Le truc dans la parenthese c'est pour pouvoir avoir des sprite
+
+#Le truc dans la parenthese c'est pour pouvoir avoir des sprites
 class Player(pygame.sprite.Sprite):
 
     def __init__(self):
