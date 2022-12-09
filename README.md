@@ -72,3 +72,5 @@ El canardo
 >Violet: crée une faille spatiotemporelle
 >
 >Orange: Incendiaire
+>
+>Gold: One shot (1 seul en tout)
