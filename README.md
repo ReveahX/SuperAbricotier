@@ -74,3 +74,18 @@ El canardo
 >Orange: Incendiaire
 >
 >Gold: One shot (1 seul en tout)
+***
+Sprite Requis
+> Maison
+> Abricot
+> Minigun
+> Bucherons
+> Abricotier
+> minigun
+> Canard
+> Police
+> Chien
+> Piece
+> Les devs
+> Un autre Background (car celui la est temporaire)
+> Des modificateur pour le combat

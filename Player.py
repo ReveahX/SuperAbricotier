@@ -1,4 +1,6 @@
 import pygame
+from Ede import Ede
+
 
 #Le truc dans la parenthese c'est pour pouvoir avoir des sprites
 class Player(pygame.sprite.Sprite):
@@ -25,18 +27,28 @@ class Player(pygame.sprite.Sprite):
 
         #Load le sprite
         self.image = pygame.image.load("Assets/Player.png")
+        self.image = pygame.transform.scale(self.image, (240, 260))
         self.image.get_rect()
         self.rect = self.image.get_rect()
 
         #Coordonnée qui me semble pas mal
         self.rect.x = 400
-        self.rect.y = 460
+        self.rect.y = 425
+        self.start_y = self.rect.y
+
+        self.isjump = False
+        self.maxjump = 10
+        self.jumpcount = self.maxjump
+        
 
     
     #Les commande de mouvements seulement droite gauche pour le moment flemme de faire la gravité
     #Faut rajouter un check si on va a droite et a gauche en meme temps et ne rien faire
     def moveright(self):
         self.rect.x += self.velocity
+        
 
     def moveleft(self):
         self.rect.x -= self.velocity
+        
+

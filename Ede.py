@@ -12,10 +12,11 @@ class Ede(pygame.sprite.Sprite):
         self.velocity = 3.2
 
         #Le Sprite
-        self.image = pygame.image.load("Assets/Ed-e.gif")
+        self.image = pygame.image.load("Assets/EdE.png")
+        self.image = pygame.transform.scale(self.image, (120, 100))
         self.image.get_rect()
         self.rect = self.image.get_rect()
-
+        
         #Les coordonné
         self.rect.x = 390
         self.rect.y = 450

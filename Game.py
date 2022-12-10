@@ -13,6 +13,9 @@ class Game:
 
         self.all_ede = pygame.sprite.Group()
         self.ede = Ede(self)
+        self.all_ede.add(self.ede)
 
         #Dictionnaire qui contient tout les boutons utiliser
         self.pressed = {}
+
+        
