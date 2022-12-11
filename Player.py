@@ -37,7 +37,7 @@ class Player(pygame.sprite.Sprite):
         self.start_y = self.rect.y
 
         self.isjump = False
-        self.jumpcount = 11
+        self.jumpcount = 10
 
         self.isjump = False
 
@@ -69,13 +69,13 @@ class Player(pygame.sprite.Sprite):
                 self.moveleft()
 
             # Monte jusqu'a etteindre la hauteur maximum
-            if self.jumpcount >= -12:
+            if self.jumpcount >= -10:
                 self.rect.y -= ((self.jumpcount) * abs(self.jumpcount)) * 0.5
                 self.jumpcount -= 1
 
             #Descend jusqu'a atterrir
             else:
-                self.jumpcount = 11
+                self.jumpcount = 10
                 self.isjump = False
                 self.rect.y = self.start_y
 
