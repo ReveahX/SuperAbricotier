@@ -36,29 +36,28 @@ class Player(pygame.sprite.Sprite):
         self.rect.y = 425
         self.start_y = self.rect.y
 
+        # Les variables pour le saut
         self.isjump = False
         self.jumpcount = 10
 
-        self.isjump = False
+        #self.isjump = False
 
 
     
-    #Les commande de mouvements seulement droite gauche pour le moment flemme de faire la gravité
+
     #Faut rajouter un check si on va a droite et a gauche en meme temps et ne rien faire
     def moveright(self):
         self.rect.x += self.velocity
         
-        
-
     def moveleft(self):
         self.rect.x -= self.velocity
-        
+    
+    # Commande de saut qui n'est pas encore parfaite mais qui marche
     def jump(self):
         # Boucle le temps du saut
         while self.isjump == True:
             pygame.display.flip()
-            self.game.screen.blit(self.game.background, (0, -200))
-            self.game.screen.blit(self.game.player.image, self.game.player.rect)
+            self.game.refreshscreen()
 
             # Bouge a droite si toujours dans la map
             if self.game.pressed.get(pygame.K_d) and self.rect.x + self.game.player.rect.width < self.game.screen.get_width():
@@ -79,5 +78,5 @@ class Player(pygame.sprite.Sprite):
                 self.isjump = False
                 self.rect.y = self.start_y
 
-            # Delay pour que ce ne soit pas instantanné
+            # Delay pour que le saut ne soit pas instantanné
             pygame.time.delay(15)

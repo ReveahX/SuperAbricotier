@@ -17,21 +17,25 @@ background = pygame.image.load('assets/bg.jpg')
 # Charge le jeux
 game = Game(background, screen)
 
-isjump = False
+
 Running = True
 
-
+ 
 # Pour que le jeu continue
 while Running:
+    game.ede.followplayer()
+
+    pygame.time.delay(15)
     clock.tick
+    game.ede.fly()
+
+    game.ede.followplayer()
+
     # Actualise l'ecran en boucle (pour pas avoir d'image figer)
     pygame.display.flip()
 
     # Dessine sur l'écran le background et le joueur
-    game.screen.blit(background, (0, -200))
-    game.screen.blit(game.player.image, game.player.rect)
-    #screen.blit(game.ede.image, game.ede.rect)
-
+    game.refreshscreen()
     
     if game.pressed.get(pygame.K_SPACE):
         game.player.isjump = True
@@ -40,12 +44,12 @@ while Running:
     # Bouge a droite si toujours dans la map
     if game.pressed.get(pygame.K_d) and game.player.rect.x + game.player.rect.width < screen.get_width() and not game.pressed.get(pygame.K_q):
         game.player.moveright()
-        pygame.time.delay(15)
+        #pygame.time.delay(15)
 
     # Bouge a gauche si toujours dans la map
     elif game.pressed.get(pygame.K_q) and game.player.rect.x > 0 and not game.pressed.get(pygame.K_d):
         game.player.moveleft()
-        pygame.time.delay(15)
+        #pygame.time.delay(15)
 
 
     for event in pygame.event.get():
@@ -63,27 +67,6 @@ while Running:
         elif event.type == pygame.KEYUP:
             game.pressed[event.key] = False
 
-
-    if isjump:
-        if game.player.jumpcount >= -10:
-            game.player.rect.y -= ((game.player.jumpcount) * abs(game.player.jumpcount)) * 0.5
-            game.player.jumpcount -= 1
-
-            # Bouge a droite si toujours dans la map
-            if game.pressed.get(pygame.K_d) and game.player.rect.x + game.player.rect.width < screen.get_width():
-                game.player.moveright()
-            
-            # Bouge a gauche si toujours dans la map
-            elif game.pressed.get(pygame.K_q) and game.player.rect.x > 0:
-                game.player.moveleft()
-
-
-        else:
-            game.player.jumpcount = 10
-            isjump = False
-            temp = game.player.start_y - game.player.rect.y
-            game.player.rect.y = game.player.start_y
-        pygame.time.delay(15)
 
             
 
