@@ -15,7 +15,7 @@ class Player(pygame.sprite.Sprite):
         #Charge les stats
         self.health = 100
         self.maxhealth = 100
-        self.velocity = 3
+        self.velocity = 10
 
         # Un dictionnaire qui contient tout type de munition et leur nombre pour les effets voir le README
         self.ammo = {"yellow": 0, "blue":0, "red":0, "green":0, "purple":0, "orange":0, "gold":0}
@@ -37,9 +37,10 @@ class Player(pygame.sprite.Sprite):
         self.start_y = self.rect.y
 
         self.isjump = False
-        self.maxjump = 10
-        self.jumpcount = self.maxjump
-        
+        self.jumpcount = 11
+
+        self.isjump = False
+
 
     
     #Les commande de mouvements seulement droite gauche pour le moment flemme de faire la gravité
@@ -47,8 +48,36 @@ class Player(pygame.sprite.Sprite):
     def moveright(self):
         self.rect.x += self.velocity
         
+        
 
     def moveleft(self):
         self.rect.x -= self.velocity
         
+    def jump(self):
+        # Boucle le temps du saut
+        while self.isjump == True:
+            pygame.display.flip()
+            self.game.screen.blit(self.game.background, (0, -200))
+            self.game.screen.blit(self.game.player.image, self.game.player.rect)
 
+            # Bouge a droite si toujours dans la map
+            if self.game.pressed.get(pygame.K_d) and self.rect.x + self.game.player.rect.width < self.game.screen.get_width():
+                self.moveright()
+                
+            # Bouge a gauche si toujours dans la map
+            elif self.game.pressed.get(pygame.K_q) and self.rect.x > 0:
+                self.moveleft()
+
+            # Monte jusqu'a etteindre la hauteur maximum
+            if self.jumpcount >= -12:
+                self.rect.y -= ((self.jumpcount) * abs(self.jumpcount)) * 0.5
+                self.jumpcount -= 1
+
+            #Descend jusqu'a atterrir
+            else:
+                self.jumpcount = 11
+                self.isjump = False
+                self.rect.y = self.start_y
+
+            # Delay pour que ce ne soit pas instantanné
+            pygame.time.delay(15)

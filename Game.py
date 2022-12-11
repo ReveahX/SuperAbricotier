@@ -4,7 +4,7 @@ from Ede import Ede
 
 class Game:
 
-    def __init__(self):
+    def __init__(self, background, screen):
         
         #Obligé de crée un groupe de joueur meme en solo 😭
         self.all_player = pygame.sprite.Group()
@@ -18,4 +18,5 @@ class Game:
         #Dictionnaire qui contient tout les boutons utiliser
         self.pressed = {}
 
-        
+        self.background = background
+        self.screen = screen
