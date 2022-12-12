@@ -20,9 +20,11 @@ game = Game(background, screen)
 
 Running = True
 
- 
+
 # Pour que le jeu continue
 while Running:
+    #print(game.player.rect.x)
+    #print(game.ede.rect.x)
     game.ede.followplayer()
 
     pygame.time.delay(15)
@@ -67,8 +69,6 @@ while Running:
         elif event.type == pygame.KEYUP:
             game.pressed[event.key] = False
 
-
-            
 
 # Pour faire culpabiliser le joueur quand il quitte le jeux 
 # (en vrai c'etait juste un truc de debug a la creation de la fenetre)
