@@ -6,7 +6,7 @@ from Ede import Ede
 class Player(pygame.sprite.Sprite):
 
     def __init__(self, game):
-        
+
         #Je sais pas c'est quoi mais on a besoins pour que ça marche je sais que c'est en lien avec le truce en parametre de class
         super().__init__()
         #On en aurat besoins au moment des hitbox
@@ -21,7 +21,7 @@ class Player(pygame.sprite.Sprite):
         self.ammo = {"yellow": 0, "blue":0, "red":0, "green":0, "purple":0, "orange":0, "gold":0}
         self.maxammo = 1000 # Valeur a changer faut voire au moment de l'equillibrage
         self.damage_multiplier = 1
-        self.attack = 10 
+        self.attack = 10
 
         self.coin = 0
 
@@ -43,34 +43,34 @@ class Player(pygame.sprite.Sprite):
         #self.isjump = False
 
 
-    
+
 
     #Faut rajouter un check si on va a droite et a gauche en meme temps et ne rien faire
     def moveright(self):
         self.rect.x += self.velocity
-        
+
     def moveleft(self):
         self.rect.x -= self.velocity
-    
+
     # Commande de saut qui n'est pas encore parfaite mais qui marche
     def jump(self):
         # Boucle le temps du saut
-        while self.isjump == True:
+        if self.isjump == True:
             pygame.display.flip()
             self.game.refreshscreen()
 
             # Bouge a droite si toujours dans la map
             if self.game.pressed.get(pygame.K_d) and self.rect.x + self.game.player.rect.width < self.game.screen.get_width():
                 self.moveright()
-                
+
             # Bouge a gauche si toujours dans la map
             elif self.game.pressed.get(pygame.K_q) and self.rect.x > 0:
                 self.moveleft()
 
             # Monte jusqu'a etteindre la hauteur maximum
             if self.jumpcount >= -10:
-                self.rect.y -= ((self.jumpcount) * abs(self.jumpcount)) * 0.5
-                self.jumpcount -= 1
+                self.rect.y -= ((self.jumpcount) * abs(self.jumpcount)) * 0.3
+                self.jumpcount -= 0.5
 
             #Descend jusqu'a atterrir
             else:
@@ -79,4 +79,4 @@ class Player(pygame.sprite.Sprite):
                 self.rect.y = self.start_y
 
             # Delay pour que le saut ne soit pas instantanné
-            pygame.time.delay(15)
+            #pygame.time.delay(15)
