@@ -1,0 +1,7 @@
+res://scenes/box.tscn
+res://resources/default_tileset.tres
+res://scenes/world.tscn
+res://scenes/tile_map.tscn
+res://scenes/player.tscn
+res://resources/knight_standing_cshape.tres
+res://scripts/player.gd
