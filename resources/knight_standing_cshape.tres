@@ -1,4 +1,8 @@
 [gd_resource type="RectangleShape2D" format=3 uid="uid://dbjso8qr63aj0"]
 
 [resource]
+<<<<<<< HEAD
 size = Vector2(15, 38)
+=======
+size = Vector2(18, 38)
+>>>>>>> 0389b82dee27685d8fe9454591ee3e33dc72a790

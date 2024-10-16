@@ -169,8 +169,12 @@ texture = ExtResource("1_dbyod")
 7:5/0 = 0
 
 [resource]
+<<<<<<< HEAD
 physics_layer_0/collision_layer = 3
 physics_layer_0/collision_mask = 3
+=======
+physics_layer_0/collision_layer = 1
+>>>>>>> 0389b82dee27685d8fe9454591ee3e33dc72a790
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Terrain 0"
 terrain_set_0/terrain_0/color = Color(0.5, 0.34375, 0.25, 1)

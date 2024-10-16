@@ -399,14 +399,21 @@ texture = ExtResource("2_8bclm")
 hframes = 10
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+<<<<<<< HEAD
 position = Vector2(-2, -19)
+=======
+position = Vector2(-1, -19)
+>>>>>>> 0389b82dee27685d8fe9454591ee3e33dc72a790
 shape = ExtResource("3_gv2j3")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -28)
 zoom = Vector2(0.65, 0.65)
+<<<<<<< HEAD
 position_smoothing_enabled = true
 position_smoothing_speed = 4.0
+=======
+>>>>>>> 0389b82dee27685d8fe9454591ee3e33dc72a790
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -415,12 +422,21 @@ libraries = {
 autoplay = "idle"
 
 [node name="CrouchRaycast_1" type="RayCast2D" parent="."]
+<<<<<<< HEAD
 position = Vector2(-7, -16)
 target_position = Vector2(0, -13)
 
 [node name="CrouchRaycast_2" type="RayCast2D" parent="."]
 position = Vector2(3, -16)
 target_position = Vector2(0, -13)
+=======
+position = Vector2(-8, -16)
+target_position = Vector2(0, -16)
+
+[node name="CrouchRaycast_2" type="RayCast2D" parent="."]
+position = Vector2(7, -16)
+target_position = Vector2(0, -16)
+>>>>>>> 0389b82dee27685d8fe9454591ee3e33dc72a790
 
 [node name="CoyoteTimer" type="Timer" parent="."]
 wait_time = 0.1
